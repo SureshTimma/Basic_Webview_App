@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient()); // Keeps links inside the WebView
-        myWebView.loadUrl("url.com");
+        myWebView.loadUrl("https://abignaacademy.graphy.com");
     }
 }
